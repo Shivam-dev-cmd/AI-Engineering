@@ -13,7 +13,7 @@ model = "llama-3.3-70b-versatile"
 role = "user"
 
 prompt1 = "hey"
-prompt2 = "explain RAG in details"
+prompt2 = input("enter your query related to AI: ")
 prompt3 = "tell emerging technologies in AI"
 
 prompts = [prompt1, prompt2, prompt3]
